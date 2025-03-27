@@ -77,3 +77,19 @@ button:hover {
     align-items: center;
     text-align: center;
 }
+
+@media (max-width: 600px) {
+    input {
+        width: 250px;
+        font-size: 16px;
+    }
+
+    #convert-btn {
+        width: 100px;
+        font-size: 16px;
+    }
+
+    #ouput {
+        font-size: 18px;
+    }
+}
